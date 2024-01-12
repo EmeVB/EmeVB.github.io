@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<div></div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Matías Vildósola Barraza</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+<body>
+
+    <!-- Barra de navegacion -->
+    <header class="fixed-top">
+
+        <!-- menu 1 -->
+        <!-- NUEVO NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary py-0" >
+            <div class="container-fluid bg-dark px-5 py-3">
+                
+                <a href="index.html" class="logoPrincipal me-5" tabindex="0" class="btn btn-lg btn-danger" data-bs-placement="bottom" role="button" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Eme" alt="Logo Principal M">M</a>
+                
+              <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="bi bi-list text-white"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+                  <li class="nav-item">
+                    <button class="btn btn-menu-izquierda p-0 me-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#sobreMi" aria-controls="sobreMi">Sobre mí</button>
+                  </li>
+
+                  <li class="nav-item">
+                    <button class="btn btn-menu-izquierda p-0 me-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#clan" aria-controls="clan">Mi Clan</button>
+                  </li>
+
+                  <li class="nav-item ">
+                    <button class="btn btn-menu-izquierda p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#futuro" aria-controls="futuro">Futuro</button>
+                  </li>
+
+                </ul>
+                <div class="col-lg-justify-content-end p-0 text-white d-flex justify-content-start align-items-center">
+                    <ul class="m-0 p-0">
+                        <a class="btn contacto" href="pages/contacto.html" target="_self" >Contacto</a>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+         
+                <!-- Sobre mi -->
+                        
+
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="sobreMi" aria-labelledby="sobreMi">
+                        <img src="images/mati1.png" alt="Foto del Desarrollador">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Sobre mi</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum neque expedita ab tempore dolorum minima labore molestias delectus. Iste neque consequatur, excepturi expedita </p>
+                            </div>
+                        </div>
+
+                        <!-- Clan -->
+                        
+
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="clan" aria-labelledby="clan">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Hermanos</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div>
+                                    <img src="images/GVB.png" alt="Guillermo Vildósola Barraza" width="350">
+                                    <h5 class="mt-3">Guillermo Vildósola Barraza <a href="https://www.linkedin.com/in/guillermo-vild%C3%B3sola-67ab1256/" target="_blank"><i class="bi bi-linkedin in-hover"></i></a> <i class="bi bi-info-square-fill in-hover" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Comunicación Audiovisual"></i>
+                                    </h5>
+                                    <hr>    
+                                </div>
+                                <div>
+                                    <img src="images/DVB.png" alt="Guillermo Vildósola Barraza" width="350">
+                                    <h5 class="mt-3">Diana Vildósola Barraza <a href="https://www.linkedin.com/in/dianavildosola/" target="_blank"><i class="bi bi-linkedin in-hover me-1"></i></a><i class="bi bi-info-square-fill  in-hover" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Periodista | Psicóloga"></i>
+                                    </h5>
+                                    <hr>    
+                                </div>
+                                <div>
+                                    <img src="images/SVB.png" alt="Guillermo Vildósola Barraza" width="350">
+                                    <h5 class="mt-3">Sebastián Vildósola Barraza <a href="https://www.linkedin.com/in/sebasti%C3%A1n-vild%C3%B3sola-barraza-a122b81a/" target="_blank"><i class="bi bi-linkedin in-hover me-1"></i></a><i class="bi bi-info-square-fill  in-hover" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Publicista"></i>
+                                    </h5>   
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Futuro -->
+                        
+
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="futuro" aria-labelledby="futuro">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Próximas habilidades</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <p>1) Framework React</p>
+                                <p>2) Javascript</p>
+                                <p>3) Inglés</p>
+                            </div>
+                        </div>
+
+                    </ul>
+                </div>
+
+        </div>
+
+        <!-- menu 2 -->
+        <nav class="navbar d-flex justify-content-center border-body border-bottom bg-white shadow-lg p-3 mb-5 bg-body-tertiary" >
+            <ul class="d-flex m-0 menu-principal p-0">
+                <a href="index.html" class=" text-decoration-none menu2 underline-hover">Home</a>
+                <a href="#web" class=" text-decoration-none menu2 underline-hover" >Diseño Web</a>
+                <a href="#grafico" class=" text-decoration-none menu2 underline-hover">Diseño Gráfico</a>
+                <a href="#skill" class=" text-decoration-none menu2 underline-hover">Habilidades</a>
+            </ul>
+        </nav>
+    </header>
+    <!------------ HOME ------------>
+    <main class="margen-fondo">
+        <Section class="proyectos-1">
+            <!-- Titulo -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="d-flex justify-content-center tituloPrincipal animate__animated animate__fadeInDown">
+                            Matías Vildósola Barraza 
+                        </h1>
+                        <h2 class="subtituloPrincipal d-flex justify-content-center">
+                            Portafolio diseño 2024
+                            <div class="spinner-grow color-spinner" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </h2>
+                        <h3 class="textoPrincipal text-center">
+                            ¡Un agrado tenerte aquí! Te dejaré a continuación los trabajos que he realizado a lo largo de mi
+                            carrera como Diseñador Gráfico, además de incluir proyectos UX UI y WEB. 
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid gap-2 col-3 mx-auto">
+                <a class="btn btn-cta" type="button" href="pdf/CV.pdf" download="CV-MVB.pdf">Descargar CV</a>
+            </div>
+        </Section>
+        <br>
+        <hr id="web">
+            
+            <!-- Cards  DISEÑO WEB -->
+        <section class="section-web">
+            <h2 class="mt-5 text-center subtitulo1"><div class="spinner-grow color-spinner me-2" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>DISEÑO WEB</h2>
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+                    <div class="col p-3">
+                    <a class="card carta-fondo" href="images/web1.png" target="_blank">
+                        <img src="images/web1.png" class="card-img-top" alt="supermorena">
+                        <div class="card-body">
+                        <h5 class="card-title">Cafe Oslo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nobis fugiat asperiores! Repellat deleniti rem illum veritatis enim voluptates voluptas?</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col p-3">
+                    <a class="card carta-fondo" href="images/web2.png" target="_blank">
+                        <img src="images/web2.png" class="card-img-top" alt="supermorena">
+                        <div class="card-body">
+                        <h5 class="card-title">TuColaborador</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col p-3">
+                    <a class="card carta-fondo" href="images/web3.png" target="_blank">
+                        <img src="images/web3.png" class="card-img-top" alt="supermorena">
+                        <div class="card-body">
+                        <h5 class="card-title">Tienda Online</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col p-3">
+                    <a class="card carta-fondo" href="images/web4.png" target="_blank">
+                        <img src="images/web4.png" class="card-img-top" alt="supermorena">
+                        <div class="card-body">
+                        <h5 class="card-title">Diplomados DuocUC </h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col p-3">
+                        <a class="card carta-fondo" href="images/web5.png" target="_blank">
+                        <img src="images/web5.png" class="card-img-top" alt="supermorena">
+                        <div class="card-body">
+                            <h5 class="card-title">Ecológico</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium inventore, odio amet voluptates quibusdam, animi iure illum rem sapiente harum molestiae cumque eaque totam ad?</p>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col p-3">
+                        <a class="card carta-fondo" href="images/web1.png" target="_blank">
+                        <img src="images/web6.png" class="card-img-top" alt="supermorena">
+                        <div class="card-body">
+                            <h5 class="card-title">Aerolínea</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr id="grafico">
+        <!-- Cards  DISEÑO GRÁFICO -->
+        <section class="section-grafico">
+            <h2 class="mt-5 text-center subtitulo2"><div class="spinner-grow color-spinner me-2" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>DISEÑO GRÁFICO</h2>
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
+                    <div class="col p-3">
+                    <a class="card carta-fondo" href="images/flyer1.png" target="_blank">
+                        <img src="images/flyer1.png" class="card-img-top" alt="flyer SMC">
+                        <div class="card-body">
+                        <h5 class="card-title">Flyer Campeonato SMC</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col p-3">
+                    <a class="card carta-fondo" href="images/flyer2.jpg" target="_blank">
+                        <img src="images/flyer2.jpg" class="card-img-top" alt="Flyer TC">
+                        <div class="card-body">
+                        <h5 class="card-title">Flyer TC</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col p-3">
+                    <a class="card carta-fondo" href="images/info1.jpg" target="_blank">
+                        <img src="images/info1.jpg" class="card-img-top" alt="Infografia de Tik Tok">
+                        <div class="card-body">
+                        <h5 class="card-title">Infografía de Tik Tok</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vitae necessitatibus quia ad consequuntur quas, et delectus soluta, ut dolorum quo minus dignissimos nihil ducimus sit id sapiente iusto nam!</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col p-3">
+                    <a class="card carta-fondo" href="images/info2.png" target="_blank">
+                        <img src="images/info2.png" class="card-img-top" alt="Infografia Sello Personal">
+                        <div class="card-body">
+                        <h5 class="card-title">Infografía Sello Personal</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quaerat sed nam repellendus? Harum, sint consequatur. Placeat maxime perferendis eligendi adipisci beatae. Debitis pariatur vero odio quasi ea voluptas ipsa.</p>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="col p-3">
+                        <a class="card carta-fondo" href="images/info3.png" target="_blank">
+                        <img src="images/info3.png" class="card-img-top" alt="Infografia Barrio Shop">
+                        <div class="card-body">
+                            <h5 class="card-title">Barrio Shop</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col p-3">
+                        <a class="card carta-fondo" href="https://www.behance.net/gallery/129891493/Mini-Manual-De-Marca-Personal" target="_blank">
+                        <img src="images/manual.png" class="card-img-top" alt="Manual de marca">
+                        <div class="card-body">
+                            <h5 class="card-title">Manual De Marca Personal</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col p-3">
+                        <a class="card carta-fondo" href="images/ui1.png" target="_blank">
+                        <img src="images/ui1.png" class="card-img-top" alt="Scotia">
+                        <div class="card-body">
+                            <h5 class="card-title">Scotia</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col p-3">
+                        <a class="card carta-fondo" href="images/ui2.png" target="_blank">
+                        <img src="images/ui2.png" class="card-img-top" alt="supermorena">
+                        <div class="card-body">
+                            <h5 class="card-title">Rediseño Web Supermorena</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr id="skill">
+
+        <section>
+            <div class="container-fluid mb-5">
+                <div class="row">
+                    <h2 class="text-center mb-5 mt-3 subtitulo3"><div class="spinner-grow color-spinner me-2" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>Habilidades Destacadas</h2>
+                    <div class="col p-0 d-flex justify-content-center">
+                        <div data-aos="fade-up"
+                        data-aos-duration="1000">
+                            <img src="images/ai.png" alt="Illustrator" width="60">
+                        </div>
+                    </div>
+                    <div class="col p-0 d-flex justify-content-center">
+                        <div data-aos="fade-up"
+                        data-aos-duration="1000">
+                            <img src="images/ps.png" alt="Photoshop" width="60">
+                        </div>
+                    </div>
+                    <div class="col p-0 d-flex justify-content-center">
+                        <div data-aos="fade-up"
+                        data-aos-duration="1000">
+                            <img src="images/xd.png" alt="Adobe Xd" width="60">
+                        </div>
+                    </div>
+                    <div class="col p-0 d-flex justify-content-center">
+                        <div data-aos="fade-up"
+                        data-aos-duration="1000">
+                            <img src="images/html.png" alt="HTML" width="60">
+                        </div>
+                    </div>
+                    <div class="col p-0 d-flex justify-content-center">
+                        <div data-aos="fade-up"
+                        data-aos-duration="1000">
+                            <img src="images/css.png" alt="CSS" width="60">
+                        </div>
+                    </div>
+                    <div class="col p-0 d-flex justify-content-center">
+                        <div data-aos="fade-up"
+                        data-aos-duration="1000">
+                            <img src="images/bootstrap.png" alt="Bootstrap" width="70">
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <hr>
+    </main>
+
+    <footer>
+        <div class="container-fluid bg-dark py-3">
+            <div class="row proyectos-1 d-flex align-items-center">
+                <div class="col-4 col-sm-4 p-0">
+                    <a href="index.html" class="logoPrincipal" tabindex="0" class="btn btn-lg btn-danger" data-bs-placement="right" role="button" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Matías Vildósola Barraza" alt="Logo Principal M">M</a>
+                </div>
+
+                <div class="col-4 col-sm-4 p-0">
+                   <h6 class="text-white text-center m-0 footer-texto"> Todos los derechos reservados 2024 ©</h6>   
+               </div>
+
+               <div class="col-4 col-sm-4 d-flex justify-content-end align-items-center p-0" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group" role="group" aria-label="First group">
+                    <a href="https://www.instagram.com/mtibarraza/" target="_blank" type="button" class="btn btn-outline-secondary"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.behance.net/mtibarraza" target="_blank" type="button" class="btn btn-outline-secondary"><i class="bi bi-behance"></i></a>
+                    <a href="https://twitter.com/mti_matiu" target="_blank" type="button" class="btn btn-outline-secondary"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://www.linkedin.com/in/mat%C3%ADas-vild%C3%B3sola-barraza-7a26b4b5/" target="_blank" type="button" class="btn btn-outline-secondary"><i class="bi bi-linkedin"></i></a>
+                    </div>                  
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="bootstrap-5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- MI CUSTOM JS -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
