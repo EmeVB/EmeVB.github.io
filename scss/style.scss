@@ -145,13 +145,22 @@ ul {
 }
 
 .subtituloPrincipal {
+    color: $color-negro;
     font-size: 3em;
+    letter-spacing: 7px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0003);
+    line-height: 0.70em;
 }
 
 .textoPrincipal {
     font-size: 1.5em;
     font-weight: $font-light;
     margin-top: 60px;
+}
+
+.hey {
+    font-weight: $font-black;
+    color: $color-negro;
 }
 
 .btn-cta {
