@@ -289,6 +289,11 @@ ul {
     }
 }
 
+@media screen and (max-width: 768px){
+    .subtituloPrincipal {
+        font-size: 1.5em;
+    }
+}
 
 @media  screen and (max-width: 425px) {
 
@@ -306,10 +311,13 @@ ul {
     }
     
     .subtituloPrincipal {
-        font-size: 1.2em;
+        letter-spacing: 2px;
+        font-size: 0.8em;
+        margin-top: 20px ;
     }
     
     .textoPrincipal {
+        
         font-size: 0.7em;
         font-weight: $font-light;
         margin: 20px auto;

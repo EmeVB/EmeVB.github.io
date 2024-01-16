@@ -12208,6 +12208,11 @@ ul {
     font-size: 0.7em;
   }
 }
+@media screen and (max-width: 768px) {
+  .subtituloPrincipal {
+    font-size: 1.5em;
+  }
+}
 @media screen and (max-width: 425px) {
   .menu-principal {
     text-align: center;
@@ -12220,7 +12225,9 @@ ul {
     text-align: center;
   }
   .subtituloPrincipal {
-    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-size: 0.8em;
+    margin-top: 20px;
   }
   .textoPrincipal {
     font-size: 0.7em;
