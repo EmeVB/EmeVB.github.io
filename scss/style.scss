@@ -164,8 +164,9 @@ ul {
 }
 
 .btn-cta {
+    font-size: 1.2em;
     margin-top: 40px;
-    padding: 15px 0;
+    padding: 15px 10px;
     background-color: $color-principal;
     color: $color-negro;
     &:hover {
@@ -214,6 +215,12 @@ ul {
         cursor: pointer;
         box-shadow: 1px 5px 10px 5px $color-gris;
     }
+}
+
+// Textos de las CARTAS _____________________________________________________
+
+.titulo-carta {
+    background-color: $color-principal;
 }
 
 
@@ -285,7 +292,7 @@ ul {
     }
 
     .btn-cta {
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 }
 
@@ -304,7 +311,8 @@ ul {
 
 
     .tituloPrincipal {
-        font-size: 2em;
+        margin-top: 30px;
+        font-size: 2.5em;
         font-weight: $font-black;
         color: $color-negro;
         text-align: center;
@@ -312,24 +320,32 @@ ul {
     
     .subtituloPrincipal {
         letter-spacing: 2px;
-        font-size: 0.8em;
+        font-size: 1.2em;
         margin-top: 20px ;
+        text-align: center;
     }
     
     .textoPrincipal {
         
-        font-size: 0.7em;
+        font-size: 0.8em;
         font-weight: $font-light;
         margin: 20px auto;
     }
 
+
     .btn-cta {
-        padding: 10px 0;
+        padding: 10px 10px;
         margin-top: 15px;
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 
     .footer-texto {
         display: none;
+    }
+}
+
+@media  screen and (max-width: 375px) {
+    .subtituloPrincipal{
+        font-size: 0.75em;
     }
 }
