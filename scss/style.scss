@@ -1,0 +1,351 @@
+@import "../bootstrap-5.3.2/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;700;900&display=swap');
+
+// Tipografías 
+    $font-principal: 'Lexend', sans-serif;
+
+//  Grosor -------------------
+    $font-black: 900;
+    $font-bold: 700;
+    $font-regular: 400;
+    $font-light: 300;
+    $font-thin: 100;
+
+// Colores
+    $color-principal: #00DFA2;
+    $color-negro: #171717;
+    $color-blanco: #fff;
+    $color-amarillo: #FCE700;
+    $color-gris: #8E8E8E;
+
+// Mixins
+
+// Fondo de pantalla -------------------------------------------
+
+
+
+html {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fondito {
+    background: linear-gradient(120deg, $color-amarillo 0%, darken($color-blanco, 5%) 100%);
+    background-size: 200% 200%;  
+    height: 100%;
+    width: 100%;
+    animation: background 6s ease infinite;
+  }
+  
+  @keyframes background { 
+    0% {
+      background-position: 0% 50%;
+    }
+    
+    50% {
+      background-position: 100% 50%;
+    }
+    
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+// --------------------------------------------------------
+
+
+// Estructura HOME
+
+
+body {
+    font-family: $font-principal;
+}
+
+
+// Barra de menu
+.logoPrincipal {
+    text-decoration: none;
+    font-size: 2em;
+    color: $color-blanco;
+    font-weight: $font-black;
+    &:hover {
+        color: $color-principal;
+    }
+}
+
+ul {
+    color: $color-negro;
+    font-weight: $font-light;
+    list-style: none;
+}
+
+.margen-menu{
+    margin: auto 5%;
+}
+
+.menu1 {
+    color: $color-blanco;
+    &:hover {
+        color:$color-principal;
+    }
+}
+
+.btn-menu-izquierda {
+    color: $color-blanco;
+    &:hover {
+        color: $color-principal;
+    }
+}
+
+.contacto {
+    color: $color-negro;
+    background-color: $color-amarillo;
+    &:hover {
+        background-color: $color-principal;
+    }
+}
+
+.descargar-cv {
+    color: $color-blanco;
+    background-color: none;
+    border: 1px solid $color-amarillo;
+    &:hover {
+        background-color: $color-amarillo;
+    }
+}
+
+
+.menu2 {
+    color: $color-negro;
+    margin: auto 20px;
+}
+
+.margen-fondo {
+    margin-top: 130px;
+}
+
+.underline-hover::after {
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: $color-negro;
+    display: block;
+    transition: all 300ms;
+}
+
+.underline-hover:hover::after {
+    width: 100%;
+}
+
+// Titulo
+.tituloPrincipal {
+    font-size: 4.5em;
+    font-weight: $font-black;
+    color: $color-negro;
+    margin-top: 80px;
+}
+
+.subtituloPrincipal {
+    color: $color-negro;
+    font-size: 3em;
+    letter-spacing: 7px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0003);
+    line-height: 0.70em;
+}
+
+.textoPrincipal {
+    font-size: 1.5em;
+    font-weight: $font-light;
+    margin-top: 60px;
+}
+
+.hey {
+    font-weight: $font-black;
+    color: $color-negro;
+}
+
+.btn-cta {
+    font-size: 1.2em;
+    margin-top: 40px;
+    padding: 15px 10px;
+    background-color: $color-principal;
+    color: $color-negro;
+    &:hover {
+        background-color: $color-amarillo;
+        color: $color-negro;
+    }
+}
+
+// Seccion proyecto 1
+
+.proyectos-1 {
+    margin: auto 5%;
+}
+
+.proyectos-2 {
+    padding: auto 5%;
+}
+
+// Seccion Diseño WEB
+
+.subtitulo1 {
+    font-weight: $font-black;
+}
+
+
+.subtitulo2 {
+    font-weight: $font-black;
+}
+
+.subtitulo3 {
+    font-weight: $font-black;
+}
+
+
+.carta-fondo{
+    transform: scale(1);
+    background-color: $color-blanco;
+    color: $color-negro;
+    transition: 0.5s ease;
+    height: 100%;
+    &:hover {
+        transform: scale(1.05);
+        background-color: $color-negro;
+        color: #fff;
+        transition: 0.5s ease;
+        cursor: pointer;
+        box-shadow: 1px 5px 10px 5px $color-gris;
+    }
+}
+
+// Textos de las CARTAS _____________________________________________________
+
+.titulo-carta {
+    background-color: $color-principal;
+}
+
+
+
+.in-hover:hover {
+    color: $color-principal;
+    cursor: pointer;
+}
+
+// Footer 
+
+.btn-group {
+    border: 1px solid $color-principal;
+    .btn:hover{
+        background-color: $color-principal;
+    }
+}
+
+.footer-texto {
+    font-size: 1em;
+}
+
+
+// PÁGINA CONTACTO 
+
+.btn-enviar {
+    margin-top: 10px;
+    width: 100%;
+    background-color: $color-gris;
+    &:hover {
+        background-color: $color-amarillo;
+        cursor: pointer;
+    }
+}
+
+.color-spinner {
+    background-color: $color-principal;
+}
+
+
+// FOOTER CONTACTO
+
+.footer-contacto {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1024px){
+    
+    .tituloPrincipal {
+        font-size: 3em;
+        font-weight: $font-black;
+        color: $color-negro;
+        text-align: center;
+    }
+    
+    .subtituloPrincipal {
+        font-size: 2em;
+    }
+    
+    .textoPrincipal {
+        font-size: 1em;
+        font-weight: $font-light;
+    }
+    .footer-texto {
+        font-size: 0.7em;
+    }
+
+    .btn-cta {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .subtituloPrincipal {
+        font-size: 1.5em;
+    }
+}
+
+@media  screen and (max-width: 425px) {
+
+    .menu-principal {
+        text-align: center;
+        font-size: 0.6em;
+    }
+
+
+    .tituloPrincipal {
+        margin-top: 30px;
+        font-size: 2.5em;
+        font-weight: $font-black;
+        color: $color-negro;
+        text-align: center;
+    }
+    
+    .subtituloPrincipal {
+        letter-spacing: 2px;
+        font-size: 1.2em;
+        margin-top: 20px ;
+        text-align: center;
+    }
+    
+    .textoPrincipal {
+        
+        font-size: 0.8em;
+        font-weight: $font-light;
+        margin: 20px auto;
+    }
+
+
+    .btn-cta {
+        padding: 10px 10px;
+        margin-top: 15px;
+        font-size: 0.8em;
+    }
+
+    .footer-texto {
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 375px) {
+    .subtituloPrincipal{
+        font-size: 0.75em;
+    }
+}
